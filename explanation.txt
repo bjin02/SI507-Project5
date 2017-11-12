@@ -1,1 +1,12 @@
 Put your Project 5 brief explanation, as directed, here.
+
+I am accessing the Tumblr Info and Posts API and gathering:
+    - Blog info for "peacecorps.tumblr.com", 2 Blog posts from "vinbeigie"
+    - For the Blog Info, I' ll be accessing the followed or not, how many likes, total_posts, title of the blog, url of the blog, ask_page_title of the blog, name of the blog
+    - For each Blog Post, I'll be accessing the post date, post summary, post data format, short_url of the post, whether we can click like, whether we can reply to the post, type of the post
+    - I'll write 2 CSV files, one for Blog Info and another one for the Blog Posts
+    - Data in CSV file infoData: 7 columns -- followed,likes,total_posts,title,url,ask_page_title,name
+    - Data in CSV file postData: 7 columns -- date,summary,format,short_url,can_like,can_reply,type
+    - URL for the API: https://api.tumblr.com/v2/blog/{blog-identifier}/info and https://api.tumblr.com/v2/blog/{blog-identifier}/posts
+    - If necessary, URL describing the authentication process for the API: https://www.beijin.design/?oauth_token=qYseWo3N8ANgg7XBa5biAuO60ApWYy3h57fp92fa7Gz75geZ9h&oauth_verifier=PLejqsNHIWywpX1q0CF99ZhIFKVz5R60e0PXzRhW9W5JUJN0bb
+      I input the OAuth1 Verifier from the Application authentication URL
