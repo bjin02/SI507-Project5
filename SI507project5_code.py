@@ -7,8 +7,8 @@ import secret_data
 from datetime import datetime
 
 ## OAuth1 API Constants - vary by API### Private data in a hidden secret_data.py file
-CLIENT_KEY = secret_data.CLIENT_KEY # what Twitter calls Consumer Key
-CLIENT_SECRET = secret_data.CLIENT_SECRET # What Twitter calls Consumer Secret
+CLIENT_KEY = secret_data.CLIENT_KEY # what Tumblr calls Consumer Key
+CLIENT_SECRET = secret_data.CLIENT_SECRET # What Tumblr calls Consumer Secret
 
 ## CACHING SETUP
 #--------------------------------------------------
