@@ -3,14 +3,12 @@ import requests_oauthlib
 import webbrowser
 import json
 import csv
+import secret_data
 from datetime import datetime
 
-#--------------------------------------------------
-# Secret Data
-#--------------------------------------------------
-## OAuth1 API Constants - vary by API
-CLIENT_KEY = "T43dM9JbKcnVPVvHCwCnpPEdrBMDX6gQTCbzX4u7vB3hp9jETG"
-CLIENT_SECRET = "wOZi72mG2T0be5SfppTfecdfwPVkJ4licomNNNI9erjT0DtTn8"
+## OAuth1 API Constants - vary by API### Private data in a hidden secret_data.py file
+CLIENT_KEY = secret_data.CLIENT_KEY # what Twitter calls Consumer Key
+CLIENT_SECRET = secret_data.CLIENT_SECRET # What Twitter calls Consumer Secret
 
 ## CACHING SETUP
 #--------------------------------------------------
